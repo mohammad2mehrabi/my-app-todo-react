@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;500&display=swap');
+
+.actions {
+    width: 100%;
+    border-top: 3px solid rgba(128, 128, 128, 0.253);
+    border-radius: 0 0 4px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.actions_top{
+    margin: 12px 0;
+    width: 100%;
+    padding: 0 16px;
+}
+
+.addInput {
+    width: 100%;
+    padding: 4px;
+    border-radius: 4px;
+    border: 2px solid gray;
+    outline: none;
+    font-size: 16px;
+}
+.addInput:focus {
+    border: 2px solid rgba(0, 51, 154, 0.512);
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.actions_bott{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    margin: 16px;
+    height: 48px;
+    width: calc(48% - 16px);
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Vazirmatn';
+    font-weight: 500;
+}
+
+.accept {
+    background-color: #F84546;
+    color: white;
+    margin-right: 0;
+}
+
+.cancel {
+    color: #F84546;
+}
+
+.accept:hover {
+    box-shadow: 0px 4px 12px 0px #F84546;
+}
+
+.cancel:hover {
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.1);
+}

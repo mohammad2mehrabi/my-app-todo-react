@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;500&display=swap');
+
+body {
+    font-family: 'Vazirmatn';
+    font-weight: 500;
+    direction: rtl;
+}
